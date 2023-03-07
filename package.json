@@ -1,0 +1,26 @@
+{
+  "name": "vue-first-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite --config ./vite/vite.config.js",
+    "build": "vite build --config ./vite/vite.config.js",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.15",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "vite": "^4.1.4"
+  }
+}
