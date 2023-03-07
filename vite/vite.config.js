@@ -11,14 +11,14 @@ export default defineConfig({
     }
   },
   json: {
-    stringify: true,
+    stringify: true
   },
   server: {
     port: 3000,
-    open: true,
+    open: true
   },
   preview: {
-    port: 8080,
+    port: 8080
   },
-  plugins: [vue()],
+  plugins: [vue()]
 })
