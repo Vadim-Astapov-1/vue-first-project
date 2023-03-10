@@ -1,0 +1,17 @@
+@import url(./assets/vendor/normalize.css);
+@import url(./assets/vendor/fonts.css);
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #DEDEDE;
+}
+
+.settings-statistics__container {
+  width: 1585px;
+  min-height: 846px;
+  margin: 100px auto 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
