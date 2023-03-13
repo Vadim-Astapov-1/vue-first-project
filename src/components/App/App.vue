@@ -9,6 +9,7 @@
   <div class='vue-settings-statistics'>
     <TheNavbar />
     <AppFilterEmployee />
+    <AppTable />
   </div>
 </template>
 
@@ -20,7 +21,6 @@
 
 .vue-settings-statistics {
   width: 100%;
-  min-height: 846px;
   display: grid;
   grid-template-columns: 305px 1fr;
   align-items: flex-start;

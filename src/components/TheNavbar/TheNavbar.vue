@@ -19,7 +19,8 @@
 <style scoped>
 .navbar {
   width: 250px;
-  padding: 0 30px 52px 25px;
+  min-height: 220px;
+  padding: 0 30px 0 25px;
   display: block;
   border-right: 1px solid #545C6A;
 }
