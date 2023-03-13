@@ -1,15 +1,14 @@
 <script setup>
   import TheNavbar from '../TheNavbar/TheNavbar.vue';
   import AppFilterEmployee from '../AppFilter/AppFilterEmployee.vue';
-  import AppFilterType from '../AppFilter/AppFilterType.vue';
-  import AppTable from '../AppTable/AppTable.vue';
+  import AppTableEmployee from '../AppTable/AppTableEmployee.vue';
 </script>
 
 <template>
   <div class='vue-settings-statistics'>
     <TheNavbar />
     <AppFilterEmployee />
-    <AppTable />
+    <AppTableEmployee />
   </div>
 </template>
 
