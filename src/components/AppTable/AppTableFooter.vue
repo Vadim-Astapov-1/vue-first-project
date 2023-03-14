@@ -85,5 +85,6 @@ import IconArrowRight from '../Icons/IconArrowRight.vue'
   line-height: 18px;
   color: #545c6a;
   text-align: right;
+  cursor: default;
 }
 </style>
