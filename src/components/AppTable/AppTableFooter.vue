@@ -7,9 +7,9 @@ import IconArrowRight from '../Icons/IconArrowRight.vue'
   <div class="table__footer">
     <button type="button" class="table__btn-delete">Удалить выбранные</button>
     <div class="table__control">
-      <button type="button" class="table__btn-change"><IconArrowLeft class='table__btn-change-icon' /></button>
+      <button type="button" class="table__btn-change"><IconArrowLeft /></button>
       <p class="table__page-number">Страница 1</p>
-      <button type="button" class="table__btn-change"><IconArrowRight class='table__btn-change-icon' /></button>
+      <button type="button" class="table__btn-change"><IconArrowRight /></button>
     </div>
     <p class="table__item-count">На странице:</p>
   </div>
@@ -43,7 +43,7 @@ import IconArrowRight from '../Icons/IconArrowRight.vue'
 }
 
 .table__control {
-  max-width: 200px;
+  min-width: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,15 +57,33 @@ import IconArrowRight from '../Icons/IconArrowRight.vue'
   background-color: #ffffff;
   transition: 0.3s;
   cursor: pointer;
+  stroke: #545c6a;
 }
 
-.table__btn-change-icon {
-  stroke:#545c6a;
-  fill: #545c6a;
+.table__btn-change:hover {
+  stroke: #1058d0;
 }
 
-.table__btn-change:hover .table__btn-change-icon {
-  stroke: #1058D0;
-  fill: #1058D0;
+.table__page-number {
+  max-width: 100%;
+  margin: auto 10px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #545c6a;
+  cursor: default;
+}
+
+.table__item-count {
+  max-width: 115px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #545c6a;
+  text-align: right;
 }
 </style>
