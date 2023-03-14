@@ -61,50 +61,50 @@
 }
 
 :slotted(.table__text_type_id) {
-  max-width: 55px;
+  width: 55px; 
 }
 
 :slotted(.table__text_type_active) {
-  max-width: 90px;
+  width: 90px;
 }
 
 :slotted(.table__text_type_type) {
-  max-width: 120px;
+  width: 120px;
 }
 
 :slotted(.table__text_type_date) {
-  max-width: 120px;
+  width: 120px;
 }
 
 :slotted(.table__text_type_period) {
-  max-width: 120px;
+  width: 120px;
 }
 
 :slotted(.table__text_type_employee) {
-  max-width: 220px;
+  width: 220px;
 }
 
 :slotted(.table__text_type_department) {
-  max-width: 220px;
+  width: 220px;
 }
 
 :slotted(.table__text_type_name) {
-  max-width: 200px;
+  width: 200px;
 }
 
 :slotted(.table__text_type_scored) {
-  max-width: 140px;
+  width: 140px;
 }
 
 :slotted(.table__text_type_point) {
-  max-width: 135;
+  width: 135px;
 }
 
 :slotted(.table__text_type_related) {
-  max-width: 200px;
+  width: 200px;
 }
 
 :slotted(.table__text_type_related-sum) {
-  max-width: 274px;
+  width: 274px;
 }
 </style>

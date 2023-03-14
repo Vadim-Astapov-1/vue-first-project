@@ -1,5 +1,6 @@
 <script setup>
 import AppTableHeader from './AppTableHeader.vue'
+import AppTableBody from './AppTableBody.vue';
 import AppTableFooter from './AppTableFooter.vue'
 </script>
 
