@@ -1,5 +1,5 @@
 <script setup>
-import AppFilter from './AppFilter.vue'
+import AppFilter from '../AppFilter/AppFilter.vue'
 import AppSearchInputUsers from '../AppSearchInput/AppSearchInputUsers.vue'
 import AppSelectorActive from '../AppSelector/AppSelectorActive.vue'
 import AppSelectorPeriod from '../AppSelector/AppSelectorPeriod.vue'
