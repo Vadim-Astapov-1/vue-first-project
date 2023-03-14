@@ -23,4 +23,12 @@ import PageTypeTableCardVue from './PageTypeTableCard.vue'
   </AppTable>
 </template>
 
-<style scoped></style>
+<style scoped>
+.table__container {
+  max-width: 100%;
+  min-height: 460px;
+  padding: 0 10px 0 25px;
+  display: flex;
+  flex-direction: column;
+}
+</style>

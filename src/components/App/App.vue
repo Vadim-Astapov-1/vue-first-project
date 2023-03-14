@@ -1,12 +1,22 @@
 <script setup>
-  import TheNavbar from '../TheNavbar/TheNavbar.vue';
-  import PageEmployee from '../PageEmployee/PageEmployee.vue';
+import { ref } from 'vue'
+
+import TheNavbar from '../TheNavbar/TheNavbar.vue'
+import PageEmployee from '../PageEmployee/PageEmployee.vue'
+import PageType from '../PageType/PageType.vue';
+
+const isFirstPage = ref(true);
+
+const handleChangePage = () => {
+  isFirstPage.value = !isFirstPage.value;
+}
 </script>
 
 <template>
-  <div class='vue-settings-statistics'>
-    <TheNavbar />
-    <PageEmployee />
+  <div class="vue-settings-statistics">
+    <TheNavbar :isFirstPage="isFirstPage" @changePage="handleChangePage" />
+    <PageEmployee v-if="isFirstPage" />
+    <PageType v-else />
   </div>
 </template>
 

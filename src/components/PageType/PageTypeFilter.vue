@@ -23,4 +23,22 @@ import AppSelectorCalender from '../AppSelector/AppSelectorCalender.vue'
   </AppFilter>
 </template>
 
-<style scoped></style>
+<style scoped>
+.filter__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px 0;
+}
+
+.filter__container-title {
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+  color: #545c6a;
+}
+</style>
