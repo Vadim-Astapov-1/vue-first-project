@@ -2,6 +2,7 @@
 import AppTable from '../AppTable/AppTable.vue'
 import AppTableBody from '../AppTable/AppTableBody.vue'
 import AppTableHeading from '../AppTable/AppTableHeading.vue'
+import AppTableEmpty from '../AppTable/AppTableEmpty.vue'
 import PageTypeTableCardVue from './PageTypeTableCard.vue'
 </script>
 
@@ -20,6 +21,7 @@ import PageTypeTableCardVue from './PageTypeTableCard.vue'
         <p class="table__text table__text_type_related-sum">Суммировать связанные типы статистик</p>
       </AppTableHeading>
       <PageTypeTableCardVue />
+      <AppTableEmpty />
     </AppTableBody>
   </AppTable>
 </template>
